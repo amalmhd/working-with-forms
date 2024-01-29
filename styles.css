@@ -1,0 +1,88 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins&display=swap";
+
+html {
+    background-color: #fff
+}
+
+.input {
+    width: 25%
+}
+
+.form {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    height: 100vh
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    background-color: #fff;
+    max-width: 300px;
+    padding: 10px;
+    box-shadow: -10px 5px 10px #d5eaff;
+    border-radius: 10px
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #1e90ff
+}
+
+.title {
+    display: flex;
+    justify-self: center;
+    color: #1e90ff;
+    font-family: 'Poppins', sans-serif
+}
+
+.field {
+    color: #fff
+}
+
+.button.is-info.is-light {
+    background-color: #fff;
+    border: 1px solid #1e90ff;
+    border-radius: 20px;
+    color: #1e90ff
+}
+
+.button.is-info.is-light:hover {
+    background-color: #1e90ff;
+    color: #fff
+}
+
+.label {
+    color: #57606f
+}
+
+.btn {
+    display: flex;
+    justify-content: center
+}
+
+strong {
+    color: #ff0000ba
+}
+
+@media screen and (min-width: 1408px) {
+    .container:not(.is-max-desktop):not(.is-max-widescreen) {
+        max-width: 300px
+    }
+}
+
+@media screen and (min-width: 1216px) {
+    .container:not(.is-max-desktop) {
+        max-width: 300px
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 300px
+    }
+}

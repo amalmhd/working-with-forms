@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-forms</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form">
+        <div class="container">
+            <h1 class="title">Sign Up</h1>
+            <form action="http://www.foo.com" method="post">
+                <ul class="coloumn">
+                    <li class="field">
+                        <label for="name" class="label">Name<span aria-label="required"><strong>*</strong></span></label>
+                        <input class="input" type="text" id="name" name="user-name" placeholder="Enter your name" required>
+                    </li>
+                    <li class="field">
+                        <label for="email" class="label">Email<span
+                                aria-label="required"><strong>*</strong></span></label>
+                        <input class="input" type="email" name="user-mail" id="email" placeholder="Enter your email" required>
+                    </li>
+                    <li class="field">
+                        <label for="pswd" class="label">Password<span
+                                aria-label="required"><strong>*</strong></span></label>
+                        <input class="input" type="password" name="password" id="pswd" placeholder="Create password" required>
+                    </li>
+                    <li class="field">
+                        <label for="cnf-pswd" class="label">Confirm password<span
+                                aria-label="required"><strong>*</strong></span></label>
+                        <input class="input" type="password" name="cnf-password" id="cnf-pswd"
+                            placeholder="Re-enter password" required>
+                    </li>
+                    <li class="btn">
+                        <button class="is-responsive is-info is-light button" onclick="">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
